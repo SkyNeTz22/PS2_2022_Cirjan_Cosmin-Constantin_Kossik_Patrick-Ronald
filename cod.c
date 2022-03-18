@@ -46,6 +46,5 @@ void loop()
 			copie = valoare & 0xFF;
 			analogWrite(6, copie);
 		}
-    
     }
 }
