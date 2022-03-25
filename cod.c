@@ -16,7 +16,7 @@ void loop()
 { 
     if(Serial.available() >= 3)
     {
-		v = Serial.read();
+		val = Serial.read();
 		
 		if(val == '1')
 		{
