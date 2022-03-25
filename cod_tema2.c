@@ -31,7 +31,8 @@ void loop()
     	}
 }
 
-void setup(){
+void setup()
+{
 	pinMode(A0, INPUT);
 	pinMode(2, INPUT);
 	Serial.begin(9600);
